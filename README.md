@@ -3,9 +3,9 @@
 > [puppeteer](https://github.com/GoogleChrome/puppeteer)是一个GoogleChrome开源的一个node库,他提供了一组用来操纵Chrome的API(默认是无headless)，我们可以使用它进行信息的爬取
 
 ### 现在先简单的实现一下爬取
-1.npm i puppeteer，先加载puppeteer库，这里使用的node库只有puppeteer哦~
-2.获取我们要爬取的网站地址，和分析网站信息的逻辑（我这里爬取的url是：图灵社区的图书页“http://www.ituring.com.cn/book?tab=book&sort=hot&page=”，要爬取图灵的所有图书信息很简单，只要在url后面加数字就是对应的页码）
-3.接下来将使用async来进行控制并发爬取数据
+- npm i puppeteer，先加载puppeteer库，这里使用的node库只有puppeteer哦~
+- 获取我们要爬取的网站地址，和分析网站信息的逻辑（我这里爬取的url是：图灵社区的图书页“http://www.ituring.com.cn/book?tab=book&sort=hot&page=”，要爬取图灵的所有图书信息很简单，只要在url后面加数字就是对应的页码）
+- 接下来将使用async来进行控制并发爬取数据
 
 #### 简单的定义一下所有使用的对象
 ```
